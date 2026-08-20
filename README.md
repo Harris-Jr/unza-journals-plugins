@@ -185,9 +185,6 @@ sudo service apache2 restart
 
 ## Screenshots
 
-Drop screenshots into `docs/screenshots/` and reference them here, for example:
-
-```markdown
 ### Homepage
 ![UNZA Journals homepage](docs/screenshots/homepage.png)
 
@@ -196,27 +193,12 @@ Drop screenshots into `docs/screenshots/` and reference them here, for example:
 
 ### Site-wide search
 ![Site-wide search redesign](docs/screenshots/search.png)
-```
-
-A handful of screenshots (homepage, one Browse tab, search, and the mobile hamburger menu) are worth committing directly — they're small, and they let anyone browsing the repo see the result without installing it.
 
 ## Demo video
 
-**Don't commit the video file itself into the repo.** Git repos aren't a good fit for video: they bloat every future clone permanently (Git doesn't diff binary files, so every version you ever add stays in history at full size), and GitHub hard-caps individual files at 100MB regardless.
+A short walkthrough of the homepage, Browse page, and site-wide search in action.
 
-Instead, host it externally and link it here:
-
-```markdown
-## Demo
-[Watch the 5-minute walkthrough](https://your-video-link-here)
-```
-
-- **YouTube (unlisted)** is usually the better choice over Google Drive — it streams properly at any resolution without asking the viewer to download anything first, and "unlisted" keeps it out of search/your channel while still being linkable to anyone with the URL.
-- If you'd rather not use YouTube, an unlisted Google Drive link works fine too — just double-check the sharing permission is "anyone with the link" before you paste it in, since Drive's default is often more restricted.
-- Optionally, embed a static thumbnail image (e.g. a screenshot of the homepage) linking to the video, so the README shows something even for people who don't click through:
-  ```markdown
-  [![Demo video](docs/screenshots/demo-thumbnail.png)](https://your-video-link-here)
-  ```
+[Watch the demo](https://your-video-link-here)
 
 ## Repo layout
 
