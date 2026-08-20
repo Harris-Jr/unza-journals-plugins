@@ -1,0 +1,9 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "plugins.generic.unza.name"
+msgstr "UNZA Journals Support"
+
+msgid "plugins.generic.unza.description"
+msgstr "Backend support for the UNZA Journals theme: the site-wide Browse Scholarly Content page, and homepage platform statistics."

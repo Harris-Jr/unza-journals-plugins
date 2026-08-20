@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "plugins.themes.unza.name"
+msgstr "UNZA Journals Theme"
+
+msgid "plugins.themes.unza.description"
+msgstr "A child of the default OJS theme carrying the University of Zambia Journals green branding, homepage, Browse, and site-wide search redesign."
+
+msgid "site.hero.tagline"
+msgstr "Advancing Zambian"
+
+msgid "site.hero.taglineAccent"
+msgstr "Scholarship &amp; Research"
+
+msgid "site.hero.subtagline"
+msgstr "UNZA Journals hosts peer-reviewed academic journals across agriculture, medicine, law, and the sciences. The official publishing platform of the University of Zambia &mdash; open access, and freely available to researchers, policymakers, and the public."
+
+msgid "site.hero.searchPlaceholder"
+msgstr "Search articles, authors, or titles&hellip;"
+
+msgid "site.hero.browseRepository"
+msgstr "Browse Repository"
+
+msgid "site.ourJournals"
+msgstr "Our Journals"
+
+msgid "site.ourJournalsEyebrow"
+msgstr "Our Collection"
+
+msgid "site.loadMoreArticles"
+msgstr "Load more articles"
+
+msgid "site.recentlyPublished"
+msgstr "Recently Published"
+
+msgid "site.recentlyPublishedEyebrow"
+msgstr "Latest Research"
+
+msgid "site.viewMoreJournals"
+msgstr "View more journals"
+
+msgid "site.stats.publishedArticles"
+msgstr "Published Articles"
+
+msgid "site.stats.distinctAuthors"
+msgstr "Distinct Authors"
+
+msgid "browse.none"
+msgstr "No results found."

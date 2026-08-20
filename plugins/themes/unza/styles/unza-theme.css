@@ -1,0 +1,125 @@
+/* ==========================================================================
+   UNZA Journals — shared theme stylesheet
+   Palette + component styles used across header.tpl, indexSite.tpl, browse.tpl.
+   Intended to become plugins/themes/unza/styles/unza-theme.css when this
+   is packaged into a theme plugin.
+   ========================================================================== */
+
+:root {
+	--unza-primary: #2D6A36;   /* dark green — headers, nav, primary buttons */
+	--unza-accent: #439E52;    /* links, secondary buttons, highlights */
+	--unza-tertiary: #64A244;  /* badges, tags, subtle accents */
+	--unza-tint: #E6F4E8;      /* light green section backgrounds, cards */
+	--unza-white: #FFFFFF;
+	--unza-text: #1e2b20;
+	--unza-text-muted: #55655a;
+	--unza-transition: 180ms ease;
+}
+
+/* ---- Nav bar --------------------------------------------------------- */
+.pkp_head_wrapper { background: var(--unza-primary) !important; }
+.pkp_nav_list a,
+.pkp_navigation_primary_wrapper a { color: var(--unza-white) !important; }
+.pkp_navigation_primary_wrapper > ul.pkp_navigation_primary > li > a:hover,
+.pkp_nav_list a:hover {
+	color: var(--unza-white) !important;
+	text-decoration: underline;
+	transition: color var(--unza-transition);
+}
+
+/* ---- Links (generic content) ----------------------------------------- */
+.page_index_site a,
+.browse-wrap a {
+	color: var(--unza-accent);
+	transition: color var(--unza-transition);
+}
+.page_index_site a:hover,
+.browse-wrap a:hover {
+	color: var(--unza-primary);
+	text-decoration: underline;
+}
+
+/* ---- Buttons ----------------------------------------------------------- */
+.unza-btn {
+	display: inline-block;
+	background: var(--unza-primary);
+	color: var(--unza-white) !important;
+	font-weight: 700;
+	text-decoration: none !important;
+	padding: 14px 32px;
+	border-radius: 6px;
+	transition: background var(--unza-transition);
+}
+.unza-btn:hover { background: var(--unza-accent) !important; }
+.unza-btn-outline {
+	display: inline-block;
+	background: transparent;
+	color: var(--unza-primary) !important;
+	border: 1.5px solid var(--unza-primary);
+	font-weight: 700;
+	text-decoration: none !important;
+	padding: 12.5px 30px;
+	border-radius: 6px;
+	transition: background var(--unza-transition), color var(--unza-transition);
+}
+.unza-btn-outline:hover { background: var(--unza-tint) !important; }
+
+/* ---- Section bands ------------------------------------------------------ */
+.site-band.band-white { background: var(--unza-white); }
+.site-band.band-tint { background: var(--unza-tint); }
+
+/* ---- Cards (journal cards, stat cards, article cards) ------------------- */
+.unza-card {
+	background: var(--unza-white);
+	border: 1px solid #dfe8e0;
+	border-radius: 12px;
+	transition: box-shadow var(--unza-transition), background var(--unza-transition), transform var(--unza-transition);
+}
+.unza-card:hover {
+	box-shadow: 0 10px 24px rgba(45,106,54,0.12);
+	background: var(--unza-tint);
+	transform: translateY(-4px);
+}
+
+/* ---- Eyebrow / section labels -------------------------------------------- */
+.unza-eyebrow {
+	display: block;
+	font-size: 0.72rem;
+	font-weight: 800;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--unza-tertiary);
+	margin-bottom: 0.5rem;
+}
+
+/* ---- Shared journal list style (used on homepage AND Browse > By Journal) ---- */
+.journal-list-styled { list-style: none !important; margin: 0 !important; padding: 0 !important; border-top: 1px solid #e6e6e6; }
+.journal-list-styled > li,
+.journal-list-styled > .journal-row {
+	display: flex !important;
+	gap: 1.5rem;
+	padding: 1.5rem 0.25rem;
+	border-bottom: 1px solid #e6e6e6;
+	transition: background 150ms ease;
+}
+.journal-list-styled > li:hover,
+.journal-list-styled > .journal-row:hover { background: var(--unza-tint); }
+.journal-list-styled .thumb img { width: 100px !important; max-width: 100px !important; height: auto !important; display: block; }
+.journal-list-styled .body h3 { margin: 0 0 8px; font-size: 1.05rem; }
+.journal-list-styled .body h3 a { color: var(--unza-text); text-decoration: none; }
+.journal-list-styled .body h3 a:hover { color: var(--unza-primary); text-decoration: underline; }
+.journal-list-styled .description { color: var(--unza-text-muted); font-size: 0.9rem; margin-bottom: 10px; }
+.journal-list-styled ul.links { list-style: none !important; display: flex !important; gap: 0.6rem; margin: 0 !important; padding: 0 !important; }
+.journal-list-styled ul.links li { display: inline-block !important; }
+.journal-list-styled ul.links a {
+	display: inline-block !important;
+	padding: 7px 16px !important;
+	border-radius: 999px !important;
+	font-size: 0.78rem !important;
+	font-weight: 700 !important;
+	text-decoration: none !important;
+}
+.journal-list-styled ul.links li.view a { background: var(--unza-primary) !important; color: #fff !important; transition: background var(--unza-transition); }
+.journal-list-styled ul.links li.view a:hover { background: var(--unza-accent) !important; }
+.journal-list-styled ul.links li.current a { border: 1.5px solid var(--unza-primary) !important; color: var(--unza-primary) !important; background: transparent !important; }
+.journal-list-styled ul.links li.current a:hover { background: #fff !important; }

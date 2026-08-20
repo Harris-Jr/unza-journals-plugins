@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/themes/unza/version.xml
+  *
+  * UNZA Journals theme plugin version information.
+  -->
+<version>
+	<application>ojs2</application>
+	<type>plugins.themes</type>
+	<product>unza</product>
+	<release>1.0.0.0</release>
+	<date>2026-08-17</date>
+	<lazy-load>1</lazy-load>
+	<class>UnzaThemePlugin</class>
+</version>
