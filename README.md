@@ -188,7 +188,7 @@ sudo service apache2 restart
 ### Homepage
 ![UNZA Journals homepage](docs/screenshots/homepage.png)
 
-### Browse — Keyword tab with search + pagination
+### Browse — Category tab with search + pagination
 ![Browse keyword search](docs/screenshots/browse-keyword.png)
 
 ### Site-wide search
@@ -198,7 +198,7 @@ sudo service apache2 restart
 
 A short walkthrough of the homepage, Browse page, and site-wide search in action.
 
-[Watch the demo](https://your-video-link-here)
+[Watch the demo](https://drive.google.com/file/d/1Di1pEV1kRCq4vFcrhIoPs0nEWxjROMVq/view?usp=sharing)
 
 ## Repo layout
 
