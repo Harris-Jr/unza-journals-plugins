@@ -94,7 +94,7 @@ If the dropdown appears but every link 404s, the generic plugin isn't enabled (i
 - Homepage: hero band, stats band, "Our Journals," "Recently Published" all render with UNZA green branding.
 - `<your-site>/index.php/index/browse/index` loads the Browse Overview page. **Note the `/index/` context segment is required** — `index.php/browse/index` (without it) will 404 or return a misleading empty response when testing with `curl`, which looks like a routing bug but isn't one.
 - Each of the 8 Browse modes loads with working search/filter, pagination, and (where applicable) A–Z filtering.
-- Site-wide search (`<your-site>/index.php/index/search/search`) shows the redesigned AJOL-style layout; searching from inside a specific journal still shows the original, unmodified per-journal search UI.
+- Site-wide search (`<your-site>/index.php/index/search/search`) shows the redesigned layout; searching from inside a specific journal still shows the original, unmodified per-journal search UI.
 
 ## Troubleshooting
 
